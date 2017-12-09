@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6"
+# command to run tests
+install:
+    - pip install requests
+    - pip install selenium
+script:
+    - python test_phantomJS.py
