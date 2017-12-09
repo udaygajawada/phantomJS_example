@@ -6,4 +6,4 @@ install:
     - pip install requests
     - pip install selenium
 script:
-    - python test_phantomJS.py
+    - python test_phantomjs.py
